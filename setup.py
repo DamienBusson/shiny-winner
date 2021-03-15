@@ -13,5 +13,5 @@ setup(name='dams_project',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/dams_project-run'],
+      scripts=['scripts/dams_project-run', 'scripts/weather'],
       zip_safe=False)
